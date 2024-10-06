@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Respossive Portfolio website Disign | codehal</title>
+    <!--  swiper css  -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> Portfolio.</a>
+
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      
+      <!-- Dark Mode Toggle Icon -->
+      <i id="darkMode-icon" class="ri-moon-line"></i><!-- Starts with moon icon -->
+      
+        <!-- <i class="bx bx-moon" id="darkMode-icon"></i> -->
+        <i class="ri-menu-line" id="menu-icon"></i>
+      </div>
+    </header>
+
+    <!-- home section dising  -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello , I am</h3>
+        <h1>Adarsh kumar Dwivedi</h1>
+        <p>
+          I'm a web developer who loves to create beautiful and functional websites for people.  <br>
+          Currently I'm a student of Technocrats Institute Of Technology & Science, Bhopal.
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/dwivedi023"><i class='bx bxl-github'></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/adarsh-kumar-dwivedi-8b201124a/"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.instagram.com/__adarsh__4704/"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <a href="https://in.docworkspace.com/d/sIJOh6MDJAcrJ-bcG" class="btn"> Download CV</a>
+      </div>
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Devloper</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-palette"></i>
+            <h3>UI/UX desingner</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-code-alt"></i>
+            <h3>Advance Java</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-code-alt"></i>
+            <h3>React developer</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <div class="home-img">
+        <!-- <img src="./img/img1.1.png" alt="" /> -->
+      </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="/images/myimg.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>me</span></h2>
+        <h3>Hi, i'm here to help your next project!</h3>
+        <p>
+          "I'm Adarsh Kumar, a frontend and backend developer with a passion for creating intuitive and responsive web applications. 
+          I specialize in technologies like JavaScript, React, Node.js, and Java, and I enjoy solving problems through clean, efficient code.
+          With experience in building everything from room-finding apps to chat platforms, 
+          I'm always looking to learn and grow. Let's connect if you’re looking for a developer who can bring your ideas to life!"</p>
+        <a href="#" class="btn"> read more</a>
+      </div>
+    </section>
+
+    <!-- servises section desining  -->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="ri-nodejs-line" title="NodeJS"></i>
+          <h3>Back-end Devlopment</h3>
+          <div class="tech-icons">
+            <i class="ri-javascript-line"></i>
+            <i class="ri-nodejs-line"></i>
+            <i class="ri-database-2-line" title="Database"></i>
+
+
+          </div>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="ri-creative-commons-nc-fill"></i>
+          <h3>frentend Devlopment</h3>
+          <div class="tech-icons">
+            <i class="ri-css3-line"></i>
+            <i class="ri-reactjs-line" title="ReactJS"></i>
+            <i class="ri-html5-line"></i>
+      </div>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="ri-tools-line"></i> <!-- Changed to a general tools icon -->
+        <h3>Tools and technologies</h3>
+     <div class="tech-icons">
+             <i class="ri-database-2-line" title="Database"></i>
+              <i class="ri-reactjs-line" title="ReactJS"></i>
+              <i class="ri-nodejs-line" title="NodeJS"></i>
+              <i class="ri-git-line" title="Git"></i>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project </span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fmeta-l.cdn.bubble.io%2Ff1695002084305x150691373288905250%2FFrame_731.jpg?w=768&h=439&auto=compress&dpr=1&q=75&fit=max" alt="" />
+          <div class="portfolio-layer">
+            <h4>web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+              dolorem ratione necessitatibus autem?
+            </p>
+            <a href="#"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fmeta-l.cdn.bubble.io%2Ff1693760599594x320420799570632960%2FHost%2520X%2520-%2520Lite.png?w=768&h=439&auto=compress&dpr=1&q=75&fit=max" alt="" />
+          <div class="portfolio-layer">
+            <h4>web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+              dolorem ratione necessitatibus autem?
+            </p>
+            <a href="#"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fmeta-q.cdn.bubble.io%2Ff1722976711844x509267143275980540%2FThumbnail_MarketplaceLikeAmazon.jpg?w=768&h=439&auto=compress&dpr=1&q=75&fit=max" alt="" />
+          <div class="portfolio-layer">
+            <h4>web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+              dolorem ratione necessitatibus autem?
+            </p>
+            <a href="#"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fmeta-l.cdn.bubble.io%2Ff1693251782440x733082364931208600%2FDuo%2520Chat%2520Messaging.png?w=768&h=439&auto=compress&dpr=1&q=75&fit=max" alt="" />
+          <div class="portfolio-layer">
+            <h4>web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+              dolorem ratione necessitatibus autem?
+            </p>
+            <a href="#"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fmeta-q.cdn.bubble.io%2Ff1716897584776x147806869541126980%2FEz%2520Task%2520Manager-1.png?w=768&h=439&auto=compress&dpr=1&q=75&fit=max" alt="" />
+          <div class="portfolio-layer">
+            <h4>web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+              dolorem ratione necessitatibus autem?
+            </p>
+            <a href="#"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fmeta-q.cdn.bubble.io%2Ff1716898955565x109946444970796530%2FEz%2520Messages.png?w=768&h=439&auto=compress&dpr=1&q=75&fit=max" alt="" />
+          <div class="portfolio-layer">
+            <h4>web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+              dolorem ratione necessitatibus autem?
+            </p>
+            <a href="#"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  testimoial design -->
+
+    <!-- <div class="testimonial-container">
+      <h2 class="heading">valuable <span>testimonial</span></h2>
+      <div class="testimonial-wrapper swiper mySwiper">
+        <div class="testimonial-content swiper-wrapper">
+          <div class="testimonial-slide swiper-slide">
+            <img src="/images/myimg.png" alt="" />
+            <h3>Harhs Sharma</h3>
+            <p>
+              A special thanks to Harsh Sir for guiding me through the complexities
+               of backend technologies. Their clear explanations and hands-on approach have 
+                deepened my understanding of server-side logic ,making me a more well-rounded developer.
+            </p>
+
+          </div>
+          <div class="testimonial-slide swiper-slide">
+            <img src="/img/myimg.jpg" alt="" />
+            <h3>Sarthak Sharma</h3>
+            <p>
+              I am thankful to Sarthak Sir , for imparting a strong
+               foundation in frontend development. Their expertise in design and attention
+                to detail have helped me build responsive and visually
+               appealing applications, boosting my confidence in web development."
+            </p>
+
+          </div>
+          <div class="testimonial-slide swiper-slide">
+            <img src="/img/myimg.jpg" alt="" />
+            <h3>Dhanish</h3>
+            <p>
+              I would like to extend my heartfelt appreciation to Mr. Dhanish,  for their exceptional guidance in mastering React. 
+              Their ability to break down complex concepts into simple, actionable steps has greatly accelerated my learning.
+              i've gained the confidence to build dynamic, high-performance applications with React."
+            </p>
+
+          </div>
+          <div class="testimonial-slide swiper-slide">
+            <img src="/img/myimg.jpg" alt="" />
+            <h3>Ankur prajapati</h3>
+            <p>
+              I am deeply grateful to Ankur Sir , for their continuous support and mentorship. 
+              Their invaluable advice, encouragement, and insight have greatly influenced my growth,
+               both personally and professionally, motivating me to aim higher in every aspect of my career.
+            </p>
+
+          </div>
+          <div class="testimonial-slide swiper-slide">
+            <img src="" alt="" />
+            <h3>keshav yadav</h3>
+            <p>
+               I'm incredibly grateful to my roommate, Keshav Yadav, for their constant support and positivity. 
+              Their unwavering encouragement and collaborative spirit have made a significant impact on my journey,
+               both in academics and personal growth. Having them by my side has truly been a privilege."
+            </p>
+
+          </div>
+          <div class="testimonial-slide swiper-slide">
+            <img src="/img/myimg.jpg" alt="" />
+            <h3>Saameer Meena</h3>
+            <p>
+              I would like to express my sincere gratitude to Mr. Sameer sir,
+              for his invaluable guidance in the field of communication. 
+               His dedication and expertise have played a significant role in shaping my communication skills, 
+               both personally and professionally. His innovative teaching methods have not only helped
+               me grow as an effective communicator but also inspired me to
+               continue developing this essential skill for future success.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+
+      </div>
+    </div> -->
+
+
+    <!--=============== contect section  ==============  -->
+     <section class="contact" id="contact">
+      <h2 class="heading"> Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="text" placeholder="Email Address">
+
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+
+        </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send message " class="btn">
+      </form>
+     </section>
+
+
+<!--  footer  -->
+   <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy ; 2024 by Adarsh  | All Rights Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="ri-arrow-up-line"></i></a>
+    </div>
+   </footer>
+  
+
+
+
+
+
+
+
+   <!--  scroll relival  -->
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swipper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
